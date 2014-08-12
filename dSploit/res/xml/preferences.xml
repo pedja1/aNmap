@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <PreferenceCategory android:title="@string/pref_general" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="PREF_CHECK_UPDATES"
+            android:summary="@string/pref_check_updates_desc"
+            android:title="@string/pref_check_updates" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="PREF_WAKE_LOCK"
+            android:summary="@string/pref_wake_lock_desc"
+            android:title="@string/pref_wake_lock" />
+
+        <Preference
+            android:key="PREF_SAVE_PATH"
+            android:summary="@string/pref_save_path_desc"
+            android:title="@string/pref_save_path" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="PREF_DEBUG_ERROR_LOGGING"
+            android:summary="@string/pref_debug_error_logging_desc"
+            android:title="@string/pref_debug_error_logging" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="PREF_ENABLE_PROFILER"
+            android:summary="@string/pref_enable_profiler_desc"
+            android:title="@string/pref_enable_profiler" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_performance" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="WIDE_SCAN"
+            android:summary="@string/pref_performance_widescan_desc"
+            android:title="@string/pref_performance_widescan"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/target_add"
+        android:showAsAction="always"
+        android:title="@string/menu_add"/>
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="always"
+        android:title="@string/menu_scan"/>
+    <item
+        android:id="@+id/wifi_scan"
+        android:icon="@drawable/ic_wifi_signal_4"
+        android:showAsAction="always"
+        android:title="@string/menu_wifi_scan"/>
+
+    <group android:id="@+id/misc_group" >
+        <item
+            android:id="@+id/ss_monitor"
+            android:title="@string/menu_stop_monitor"/>
+
+        <item
+            android:id="@+id/settings"
+            android:title="@string/menu_settings"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/menu_about"/>
+    </group>
+
+</menu>
