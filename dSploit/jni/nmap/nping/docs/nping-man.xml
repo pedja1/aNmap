@@ -2214,8 +2214,8 @@ SENT (4.0330s) TCP 192.168.0.21 &gt; 3.3.3.3:139
            <ulink url="http://www.tunnelbroker.net"/>.
         </para>
         <para>
-           Please note that IPv6 support is still highly experimental and
-           many modes and options may not work with it.
+            Please note that IPv6 support is still highly experimental and
+            many modes and options may not work with rs.
         </para>
 
         </listitem>
@@ -2734,10 +2734,10 @@ SENT (4.0330s) TCP 192.168.0.21 &gt; 3.3.3.3:139
     </para>
 
     <para>
-    The Echo mode is also useful for troubleshooting routing and firewall issues.
-    Among other things, it can be used to determine if the traffic generated
-    by the Nping client is being dropped in transit and never gets to its
-    destination or if the responses are the ones that don't get back to it.
+        The Echo mode is also useful for troubleshooting routing and firewall issues.
+        Among other things, it can be used to determine if the traffic generated
+        by the Nping client is being dropped in transit and never gets to its
+        destination or if the responses are the ones that don't get back to rs.
     </para>
 
     <para>

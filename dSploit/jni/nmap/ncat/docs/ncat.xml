@@ -38,11 +38,11 @@
     the user with a virtually limitless number of potential uses.</para>
 
     <para>Among Ncat's vast number of features there is the ability to chain Ncats
-    together; redirection of TCP, UDP, and SCTP ports to other sites; SSL support; and proxy
-    connections via SOCKS4 or HTTP proxies (with optional proxy
-    authentication as well).  Some general principles apply to most applications
-    and thus give you the capability of instantly adding networking support to
-    software that would normally never support it.</para>
+        together; redirection of TCP, UDP, and SCTP ports to other sites; SSL support; and proxy
+        connections via SOCKS4 or HTTP proxies (with optional proxy
+        authentication as well). Some general principles apply to most applications
+        and thus give you the capability of instantly adding networking support to
+        software that would normally never support rs.</para>
   </refsect1>
 
   <refsect1 id="ncat-man-options-summary">
@@ -1001,9 +1001,9 @@
   <title>Source Code Availability and Community Contributions</title>
 
 <para>Source is provided to this software because we believe users
-have a right to know exactly what a program is going to do before they
-run it. This also allows you to audit the software for security holes
-(none have been found so far).</para>
+    have a right to know exactly what a program is going to do before they
+    run rs. This also allows you to audit the software for security holes
+    (none have been found so far).</para>
 
 <para>Source code also allows you to port Nmap (which includes Ncat)
 to new platforms, fix bugs, and add new features.  You are highly

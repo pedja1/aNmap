@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="it.evilsocket.dsploit"
+          package="rs.pedjaapps.anmap"
           android:versionCode="1"
           android:versionName="1.1.3d">
 
@@ -39,20 +39,8 @@
                 android:enabled="true"/>
         <!--suppress AndroidDomInspection -->
         <service
-                android:name=".core.UpdateChecker"
-                android:enabled="true"/>
-        <service
-                android:name=".core.UpdateService"
-                android:enabled="true"/>
-        <service
                 android:name=".core.MultiAttackService"
                 android:enabled="true"/>
-
-        <activity
-                android:name=".WifiScannerActivity"
-                android:configChanges="orientation|screenSize"
-                android:label="@string/title_activity_main">
-        </activity>
         <activity
                 android:name=".SettingsActivity"
                 android:configChanges="orientation|screenSize"

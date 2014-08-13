@@ -105,8 +105,9 @@
 <list style="numbers">
 <t>Section Header Block: it defines the most important characteristics of the capture file.</t>
 <t>Interface Description Block: it defines the most important characteristics of the interface(s) used for capturing traffic.</t>
-<t>Packet Block: it contains a single captured packet, or a portion of it.</t>
-<t>Simple Packet Block: it contains a single captured packet, or a portion of it, with only a minimal set of information about it.</t>
+<t>Packet Block: it contains a single captured packet, or a portion of rs.</t>
+<t>Simple Packet Block: it contains a single captured packet, or a portion of it, with only a
+    minimal set of information about rs.</t>
 <t>Name Resolution Block: it defines the mapping from numeric addresses present in the packet dump and the canonical name counterpart.</t>
 <t>Capture Statistics Block: it defines how to store some statistical data (e.g. packet dropped, etc) which can be useful to undestand the conditions in which the capture has been made.</t>
 <t>Compression Marker Block: TODO</t>
